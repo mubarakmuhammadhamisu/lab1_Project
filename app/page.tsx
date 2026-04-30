@@ -28,7 +28,7 @@ export default function Home() {
           <div className="flex-1 flex flex-col gap-8">
             <div>
               {/*text-foreground*/}
-              <h1 className="text-5xl lg:text-6xl font-bold leading-tight text-balance text-card-bg">
+              <h1 className="text-5xl lg:text-6xl font-bold leading-tight  text-card-bg">
                 Reliable Medical Testing. Secure Digital Results.
               </h1>
               <p className="text-lg text-text-muted mt-6 leading-relaxed max-w-lg">
