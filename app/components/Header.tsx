@@ -15,23 +15,23 @@ export default function Header() {
             <span className="text-white font-bold text-xl">⚗</span>
           </div>
           <div>
-            <h1 className="font-bold text-xl text-foreground">ApexMedLab</h1>
-            <p className="text-xs text-text-muted">Reliable Medical Testing</p>
+            <h1 className="font-bold text-xl text-card-bg">ApexMedLab</h1>
+            <p className="text-xs text-blue-600">Reliable Medical Testing</p>
           </div>
         </Link>
 
         {/* Desktop Navigation */}
         <nav className="hidden lg:flex items-center gap-10">
-          <Link href="/" className="text-foreground hover:text-primary font-medium text-sm transition">
+          <Link href="/" className="text-card-bg hover:text-primary font-medium text-sm transition">
             Home
           </Link>
-          <Link href="/services" className="text-foreground hover:text-primary font-medium text-sm transition">
+          <Link href="/services" className="text-card-bg hover:text-primary font-medium text-sm transition">
             Services
           </Link>
-          <Link href="/results" className="text-foreground hover:text-primary font-medium text-sm transition">
+          <Link href="/results" className="text-card-bg hover:text-primary font-medium text-sm transition">
             Check Results
           </Link>
-          <Link href="/about" className="text-foreground hover:text-primary font-medium text-sm transition">
+          <Link href="/about" className="text-card-bg hover:text-primary font-medium text-sm transition">
             About Us
           </Link>
         </nav>
@@ -40,7 +40,7 @@ export default function Header() {
         <div className="hidden lg:flex items-center gap-6">
           <a
             href="https://wa.me/2348123456789"
-            className="text-foreground hover:text-primary font-medium text-sm flex items-center gap-2 transition"
+            className="text-card-bg hover:text-primary font-medium text-sm flex items-center gap-2 transition"
           >
             <span>📞</span>
             <span className="hidden xl:inline">+234 812 345 6789</span>
@@ -68,27 +68,27 @@ export default function Header() {
       {/* Mobile Navigation */}
       {isOpen && (
         <nav className="lg:hidden bg-card-bg border-t border-card-border px-6 py-6 flex flex-col gap-6">
-          <Link href="/" className="text-foreground hover:text-primary font-medium transition">
+          <Link href="/" className="text-card-bg hover:text-primary font-medium transition">
             Home
           </Link>
-          <Link href="/services" className="text-foreground hover:text-primary font-medium transition">
+          <Link href="/services" className="text-card-bg hover:text-primary font-medium transition">
             Services
           </Link>
-          <Link href="/results" className="text-foreground hover:text-primary font-medium transition">
+          <Link href="/results" className="text-card-bg hover:text-primary font-medium transition">
             Check Results
           </Link>
-          <Link href="/about" className="text-foreground hover:text-primary font-medium transition">
+          <Link href="/about" className="text-card-bg hover:text-primary font-medium transition">
             About Us
           </Link>
           <a
             href="https://wa.me/2348123456789"
-            className="text-foreground hover:text-primary font-medium transition"
+            className="text-card-bg hover:text-primary font-medium transition"
           >
             📞 +234 812 345 6789
           </a>
           <Link
             href="/contact"
-            className="bg-primary hover:bg-primary-dark text-white font-bold py-2.5 px-6 rounded text-center transition shadow-md"
+            className="bg-primary hover:bg-primary-dark text-card-bg font-bold py-2.5 px-6 rounded text-center transition shadow-md"
           >
             CONTACT & LOCATION
           </Link>
