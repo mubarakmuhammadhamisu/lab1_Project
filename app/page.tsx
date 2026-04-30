@@ -27,7 +27,7 @@ export default function Home() {
           {/* Right: Content */}
           <div className="flex-1 flex flex-col gap-8">
             <div>
-              <h1 className="text-5xl lg:text-6xl font-bold text-foreground leading-tight text-balance bg-card-bg">
+              <h1 className="text-5xl lg:text-6xl font-bold text-foreground leading-tight text-balance text-card-bg">
                 Reliable Medical Testing. Secure Digital Results.
               </h1>
               <p className="text-lg text-text-muted mt-6 leading-relaxed max-w-lg">
